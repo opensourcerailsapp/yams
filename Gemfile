@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '1.9.3' # for heroku
 gem 'rails', '4.0.0'
-gem 'pg', '~> 0.16.0'
+gem 'pg'
 gem 'sass-rails', '~> 4.0.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
@@ -18,6 +18,7 @@ end
 
 group :production do 
   gem 'unicorn', '~> 4.6.3'
+  gem 'rails_12factor'
 end
 
 group :development, :test do 
