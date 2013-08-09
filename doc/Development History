@@ -2,8 +2,11 @@ Development History
 ---------------------------
 Aim: To create a project management tool.
 
-1. It is too tough to start with all functinalities. 
+1. It is too tough to start with all known functinalities. 
    Let start with simple todo list with list/add/edit/remove/mark as completed and 
    mark as uncompleted functionality
 
+2. To start with I spend time in choosing the application layout.
+   I like to go with responsive design from initial stage. I tried twitter bootstrap and foundation.
+   Atlast I like to go with foundation. One thing which impress me is flat design and ability to use sass
 

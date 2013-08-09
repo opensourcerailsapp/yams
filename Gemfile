@@ -9,25 +9,25 @@ gem 'therubyracer', '~> 0.11.4', platforms: :ruby
 gem 'jquery-rails', '~> 3.0.4'
 gem 'jbuilder', '~> 1.2'
 gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'zurb-foundation'
 
-
-group :development do 
+group :development do
   gem 'thin', '~> 1.5.1'
   gem 'annotate', '~> 2.5.0'
 end
 
-group :production do 
+group :production do
   gem 'unicorn', '~> 4.6.3'
   gem 'rails_12factor'
 end
 
-group :development, :test do 
+group :development, :test do
   gem 'debugger', '~> 1.6.1'
   gem 'rspec-rails', '~> 2.14.0'
   gem 'ffaker', '~>1.18.0'
 end
 
-group :test do 
+group :test do
   gem 'shoulda-matchers', '~> 2.2.0'
 end
 
